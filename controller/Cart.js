@@ -29,7 +29,7 @@ class Cart {
                 console.log(cart);
             }
             console.log(cart.books);
-            const cartItem = cart.books.find((element) => element.book = book);
+            const cartItem = cart.books.find((element) => element.book === book);
             console.log(cartItem);
 
             if (cartItem) {
